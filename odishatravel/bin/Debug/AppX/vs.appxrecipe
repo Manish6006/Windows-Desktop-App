@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MYLOVE</Machine>
+    <WindowsUser>Manish Kumar Sharma</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>a5520f95-f2f5-438d-b0eb-c2646ed9d5b0</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>8B0DF1C41C90C751351AE6FEEC5B1AD2329D16F601D6AD2BF497DC216441552F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a5520f95-f2f5-438d-b0eb-c2646ed9d5b0_1.0.0.0_neutral__egmn08k7ppc6c</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a5520f95-f2f5-438d-b0eb-c2646ed9d5b0_egmn08k7ppc6c!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a5520f95-f2f5-438d-b0eb-c2646ed9d5b0</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=MANISH KUMAR SHARMA</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-10-05T13:38:44.477</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\bin\Debug\odishatravel.exe">
+      <PackagePath>odishatravel.exe</PackagePath>
+      <Modified>2017-10-05T13:38:44.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\1.png">
+      <PackagePath>Assets\1.png</PackagePath>
+      <Modified>2014-02-05T13:58:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\12.png">
+      <PackagePath>Assets\12.png</PackagePath>
+      <Modified>2014-02-05T12:59:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\2-logo.png">
+      <PackagePath>Assets\2-logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-05T13:16:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\20969-logo.png">
+      <PackagePath>Assets\20969-logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-05T13:14:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\22.png">
+      <PackagePath>Assets\22.png</PackagePath>
+      <Modified>2014-02-05T12:39:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\333.png">
+      <PackagePath>Assets\333.png</PackagePath>
+      <Modified>2014-02-05T13:22:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\34.png">
+      <PackagePath>Assets\34.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-05T13:19:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\45.png">
+      <PackagePath>Assets\45.png</PackagePath>
+      <Modified>2014-02-05T12:35:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\50.png">
+      <PackagePath>Assets\50.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-05T14:16:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\55.png">
+      <PackagePath>Assets\55.png</PackagePath>
+      <Modified>2014-02-05T12:50:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\56.png">
+      <PackagePath>Assets\56.png</PackagePath>
+      <Modified>2014-02-05T12:55:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\66.png">
+      <PackagePath>Assets\66.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-05T13:21:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\87.png">
+      <PackagePath>Assets\87.png</PackagePath>
+      <Modified>2014-02-05T12:46:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\89.png">
+      <PackagePath>Assets\89.png</PackagePath>
+      <Modified>2014-02-05T13:24:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\99.png">
+      <PackagePath>Assets\99.png</PackagePath>
+      <Modified>2014-02-05T14:08:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\ananta vasudeva.png">
+      <PackagePath>Assets\ananta vasudeva.png</PackagePath>
+      <Modified>2014-02-05T11:13:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\brama temple.png">
+      <PackagePath>Assets\brama temple.png</PackagePath>
+      <Modified>2014-02-05T11:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\Chintamanisvara_Siva_Temple.png">
+      <PackagePath>Assets\Chintamanisvara_Siva_Temple.png</PackagePath>
+      <Modified>2014-02-05T11:21:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\empires.png">
+      <PackagePath>Assets\empires.png</PackagePath>
+      <Modified>2014-02-05T11:59:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\Ginger.png">
+      <PackagePath>Assets\Ginger.png</PackagePath>
+      <Modified>2014-02-05T12:05:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\hotel miland palace.png">
+      <PackagePath>Assets\hotel miland palace.png</PackagePath>
+      <Modified>2014-02-05T12:24:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\hotel-hindusthan-international.png">
+      <PackagePath>Assets\hotel-hindusthan-international.png</PackagePath>
+      <Modified>2014-02-05T11:45:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\india.png">
+      <PackagePath>Assets\india.png</PackagePath>
+      <Modified>2014-02-05T10:41:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\kalinga.png">
+      <PackagePath>Assets\kalinga.png</PackagePath>
+      <Modified>2014-02-05T12:29:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\lingaraj temple.png">
+      <PackagePath>Assets\lingaraj temple.png</PackagePath>
+      <Modified>2014-02-05T11:26:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2014-02-05T13:12:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\Mukteswar.png">
+      <PackagePath>Assets\Mukteswar.png</PackagePath>
+      <Modified>2014-02-05T11:29:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\Rajani.png">
+      <PackagePath>Assets\Rajani.png</PackagePath>
+      <Modified>2014-02-05T11:34:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2014-02-05T13:19:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <Modified>2014-02-05T13:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\The-crown-hotel.png">
+      <PackagePath>Assets\The-crown-hotel.png</PackagePath>
+      <Modified>2014-02-05T11:53:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\xxxx.png">
+      <PackagePath>Assets\xxxx.png</PackagePath>
+      <Modified>2014-02-05T09:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Assets\xxx~1.png">
+      <PackagePath>Assets\xxx~1.png</PackagePath>
+      <Modified>2014-02-05T09:23:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2014-02-05T09:27:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\bin\Debug\odishatravel.xr.xml">
+      <PackagePath>odishatravel.xr.xml</PackagePath>
+      <Modified>2017-10-05T13:35:29.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-02-05T09:21:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\bin\Debug\BasicPage1.xbf">
+      <PackagePath>BasicPage1.xbf</PackagePath>
+      <Modified>2014-02-05T14:18:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\bin\Debug\BasicPage2.xbf">
+      <PackagePath>BasicPage2.xbf</PackagePath>
+      <Modified>2014-02-05T14:18:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\bin\Debug\BasicPage3.xbf">
+      <PackagePath>BasicPage3.xbf</PackagePath>
+      <Modified>2014-02-05T14:18:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\bin\Debug\BasicPage4.xbf">
+      <PackagePath>BasicPage4.xbf</PackagePath>
+      <Modified>2014-02-05T14:18:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\bin\Debug\BasicPage5.xbf">
+      <PackagePath>BasicPage5.xbf</PackagePath>
+      <Modified>2014-02-05T14:18:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\bin\Debug\BasicPage6.xbf">
+      <PackagePath>BasicPage6.xbf</PackagePath>
+      <Modified>2014-02-05T14:18:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-02-05T14:18:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Manish Kumar Sharma\Documents\Visual Studio 2015\Projects\odishatravel\odishatravel\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2017-10-05T13:38:44.244</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

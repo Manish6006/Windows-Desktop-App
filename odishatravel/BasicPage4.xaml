@@ -1,0 +1,57 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="odishatravel.BasicPage4"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:odishatravel"
+    xmlns:common="using:odishatravel.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Margin="10,25,-10,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="336,10,0,0" TextWrapping="Wrap" Text="PICTURES AND DETAILS" FontSize="71" Foreground="DarkOrchid"  VerticalAlignment="Top" Height="120" Width="755"/>
+        <Image HorizontalAlignment="Left" Height="204" Grid.Row="1" VerticalAlignment="Top" Width="196" Source="/assets/hotel miland palace.png" Stretch="UniformToFill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="201,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="HOTEL MILAND PALACE facilitates you with grand banquets to contemporary rooms, from the business center to the four-fixture washrooms that is distinctively the first of its kind in the city. We are just at a walking distance from Bhubaneswar Railway Station, 3 km from Biju Pattnaik International Airport, by the side of Cuttack-Bhubanswar-Puri Road, 2.5 km from major shopping destinations at Bhubaneswar and 4 km from Calcutta. We are just at a walking distance from Bhubaneswar Railway Station, 3 km from Biju Pattnaik International Airport." FontSize="18" VerticalAlignment="Top" Height="204" Width="520"/>
+        <Image HorizontalAlignment="Left" Height="244" Margin="10,278,0,0" Grid.Row="1" VerticalAlignment="Top" Width="186" Source="/assets/kalinga.png" Stretch="UniformToFill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="201,278,0,0" Grid.Row="1" TextWrapping="Wrap" Text="It is The Kalinga Restruants.And Kalinga, Andheri West, Mumbai on burrp.com. ... place is value 4 money whd gud fud n good quantity..... though d ambience is jus lyk a normal restaurant d fud.The Kalinga in Chandrasekharpur, Bhubaneswar - Get ratings reviews of The ... Kalinga contact address and  phone numbers to your mobile from Restaurants.Kalinga Treat , KIIT Road, Bhubaneswar is an awesome restaurant with multi-cuisine menus and a soothing ambience to pamper your tastebuds. Do visit ." FontSize="20" VerticalAlignment="Top" Height="244" Width="520"/>
+        <Image HorizontalAlignment="Left" Height="204" Margin="770,0,0,0" VerticalAlignment="Top" Width="182" Grid.Row="1" Source="/assets/45.png" Stretch="UniformToFill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="957,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="It is Tangerine 9.Tangerine 9, Bhubaneswar, India. 512 likes · 19 talking about this · 1889 were here. Local Business.Tangerine 9 Bhubaneshwar , India - Check menu, famous cuisine, popular dishes, opening, closing time, how to reach, address, contact no of Tangerine 9. Tangerine 9 Restaurant Bhubaneshwar . Know more about address, contact number, menu, cusisines available at Tangerine 9 Restaurant." FontSize="20" VerticalAlignment="Top" Height="242" Width="399"/>
+        <Image HorizontalAlignment="Left" Height="244" Margin="770,278,0,0" Grid.Row="1" VerticalAlignment="Top" Width="182" Source="/assets/22.png" Stretch="UniformToFill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="957,278,0,0" Grid.Row="1" TextWrapping="Wrap" Text="It is Trupti.Cheap, good hotel in Bhubaneswar with quality service at convenient location BEST HOTEL is your best choice for accommodations in bhubaneswar.Hotel Trupti in Rasulgarh, Bhubaneshwar listed under with Address, contact number, reviews. Call 08888888888 for Hotel Trupti in Rasulgarh, Bhubaneshwar ." FontSize="20" VerticalAlignment="Top" Height="244" Width="399"/>
+    </Grid>
+</Page>

@@ -1,0 +1,57 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="odishatravel.BasicPage5"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:odishatravel"
+    xmlns:common="using:odishatravel.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="146,10,0,0" TextWrapping="Wrap" Text="PICTURES AND DETAILS" Foreground="SandyBrown" FontSize="80" VerticalAlignment="Top" Height="90" Width="843"/>
+        </Grid>
+        <Image HorizontalAlignment="Left" Height="227" Margin="0,5,0,0" Grid.Row="1" VerticalAlignment="Top" Width="230" Source="/assets/87.png" Stretch="UniformToFill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="235,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="It is NICCO PARK. AND Bhubaneswar Park, ammusement park in orissa india, Budget parks in bhubaneswar india, Nicco park orissa, ammusement park bhubaneswar, best park in ABOUT US. BDA City Center (Previously known as BDA Nicco Park) is Odisha's first and only family ammusement park. Situated in the heart of Odisha's capital. " FontSize="18" VerticalAlignment="Top" Height="170" Width="422"/>
+        <Image HorizontalAlignment="Left" Height="276" Margin="0,312,0,0" Grid.Row="1" VerticalAlignment="Top" Width="230" Source="/assets/55.png" Stretch="UniformToFill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="235,312,0,0" Grid.Row="1" TextWrapping="Wrap" Text=" Indira Gandhi Park - Ranked 4 out of 46 Bhubaneswar Tourist Places. Know things to do and travel recommendations for Indira Gandhi Park from HolidayIQt.Indira Gandhi Park, Bhubaneswar is a park, garden located at Unit - 2 in Bhubaneswar. Indira Gandhi Park, Bhubaneswar - Bhubaneswar on the map.Indira Gandhi Park Innaugurated by Rajiv Gandhi on October 31st 1988." FontSize="20" VerticalAlignment="Top" Height="276" Width="422"/>
+        <Image HorizontalAlignment="Left" Height="222" Margin="694,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="188" Source="/assets/56.png" Stretch="UniformToFill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="887,10,0,0" Grid.Row="1" TextWrapping="Wrap" Text="It is Forest Park.Jul 27, 2012 - Among the various parks in Bhubaneswar, one most important park is the Forest Park of Bhubaneswar which is also known as the Biju Pattnai.Rajendra Vihar appt is situated at forest park most VIP area of bhubaneswar 100 ft road Rajmahal chhak 800 mtrs International Airport 400 mtrs Hospital." FontSize="20" VerticalAlignment="Top" Height="222" Width="469"/>
+        <Image HorizontalAlignment="Left" Height="276" Margin="694,312,0,0" Grid.Row="1" VerticalAlignment="Top" Width="188" Source="/assets/12.png" Stretch="UniformToFill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="887,312,0,0" Grid.Row="1" TextWrapping="Wrap" Text="It is Water Park.Ocean World Water Park-an incredible waterpark since two year in great ... 20 (Twenty) kilometers from the Twin City of Cuttack and Bhubaneswar; 9 Kms. Pragativadi reports that a mega water park is being built 6kms from Phulnakhara, in between Bhubaneswar and Cuttack.Ocean World-Water Park in Bhubaneswar - TourTravelWorld.com offers complete information about Ocean World-Water Park, book online and get the cheapest " FontSize="20" VerticalAlignment="Top" Height="276" Width="469"/>
+    </Grid>
+</Page>
